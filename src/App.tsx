@@ -1,15 +1,13 @@
-import { useState } from 'react';
-import { Button } from 'react-bootstrap'
+// import { Container, Button } from 'react-bootstrap';
+import ResponsiveNavbar from './components/ResponsiveNavBar';
 
-import './App.css'
+import './App.scss';
 
 export default function App() {
-  const [count, setCount] = useState(0)
 
   return (
-
-
-        <Button onClick={() => setCount((count) => count + 1)}>Count {count}</Button>
-
+<div className="d-flex flex-column">
+  <ResponsiveNavbar />
+</div>
   )
-}
+};
