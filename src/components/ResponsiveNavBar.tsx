@@ -8,7 +8,7 @@ const ResponsiveNavbar = () => {
     <Navbar.Brand href="/">MisterTeapot's Top Ten Tips for Minecraft</Navbar.Brand>
     <Navbar.Toggle aria-controls="navbar-toggle" />
     <Navbar.Collapse id="navbar-toggle">
-      <Nav className="me-auto">
+      <Nav className="ms-auto">
         <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="/link">Link</Nav.Link>
         <NavDropdown title="Drop-down" id="nav-dropdown">
