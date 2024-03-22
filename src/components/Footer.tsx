@@ -3,11 +3,10 @@ import {Container, Row, Col} from 'react-bootstrap';
 export default function Footer() {
     
 
-// export default function Footer() {
 
 
     return (
-        <div className="bg-secondary mt-auto rounded">
+        <div className="bg-secondary mt-auto">
   <Container className="p-3">
     <Row>
       <Col className="text-center">

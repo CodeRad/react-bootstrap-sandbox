@@ -5,7 +5,7 @@ const ResponsiveNavbar = () => {
     return (
 <Navbar bg="primary" collapseOnSelect expand="sm">
   <Container>
-    <Navbar.Brand href="/">MisterTeapot's Top Ten Tips for Minecraft</Navbar.Brand>
+    <Navbar.Brand href="/">Lorem & Ipsociates</Navbar.Brand>
     <Navbar.Toggle aria-controls="navbar-toggle" />
     <Navbar.Collapse id="navbar-toggle">
       <Nav className="ms-auto">
